@@ -15,7 +15,7 @@ public class MyFrame {
         // Make the frame visible
         frame.setVisible(true);
 
-        JLabel label = new JLabel("dance with me", JLabel.CENTER);
+        JLabel label = new JLabel("last trye", JLabel.CENTER);
         label.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 24)); // Set font and size
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setVerticalAlignment(JLabel.CENTER);
