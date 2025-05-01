@@ -1,3 +1,5 @@
+import javax.swing.JLabel;
+
 public class MyFrame {
 
     public static void main(String[] args) {
@@ -12,6 +14,15 @@ public class MyFrame {
         
         // Make the frame visible
         frame.setVisible(true);
+
+        JLabel label = new JLabel("Hello, World!");
+        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setVerticalAlignment(JLabel.CENTER);
+        label.setSize(200, 100);
+        label.setLocation(100, 100);    
+        label.setVisible(true);
+        frame.add(label);
+        frame.setLayout(null); // Set layout to null for absolute positioning
 
     }
 } 
